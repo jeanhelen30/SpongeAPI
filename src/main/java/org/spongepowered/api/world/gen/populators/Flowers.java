@@ -81,7 +81,7 @@ public interface Flowers extends Populator {
      * 
      * @param type The plant type to spawn
      */
-    void serFlowerType(PlantType type);
+    void setFlowerType(PlantType type);
 
     /**
      * A builder for constructing {@link Flowers} populators.
